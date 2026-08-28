@@ -44,87 +44,87 @@ namespace Lab02
             /* Part two */
             /* Character one */
 
-            string CharacteroneName = "Gandeeva";
-            char CharacteroneRank = 'A';
-            int CharacteroneLevel = 5;
-            int CharacteroneMaxHp = 120;
-            int CharacteroneCurrentHp = 120;
-            int CharacteroneDamageTaken = 15;
-            float CharacteroneAttackPower = 35.0f;
-            double CharacteroneCritMultiplier = 2.0;
-            bool LongRange = true;
+            string characterOneName = "Gandeeva";
+            char characterOneRank = 'A';
+            int characterOneLevel = 5;
+            int characterOneMaxHp = 120;
+            int characterOneCurrentHp = 120;
+            int characterOneDamageTaken = 15;
+            float characterOneAttackPower = 35.0f;
+            double characterOneCritMultiplier = 2.0;
+            bool IsLongRange = true;
 
             Console.WriteLine("===== Gandeeva STATUS: INITIAL =====");
-            Console.WriteLine($"Name: {CharacteroneName}");
-            Console.WriteLine($"Rank: {CharacteroneRank}");
-            Console.WriteLine($"Level: {CharacteroneLevel}");
-            Console.WriteLine($"HP: {CharacteroneCurrentHp} / {CharacteroneMaxHp}");
-            Console.WriteLine($"Attack Power: {CharacteroneAttackPower}");
-            Console.WriteLine($"Crit Multiplier: {CharacteroneCritMultiplier}");
-            Console.WriteLine($"Is Boss: {LongRange}");
+            Console.WriteLine($"Name: {characterOneName}");
+            Console.WriteLine($"Rank: {characterOneRank}");
+            Console.WriteLine($"Level: {characterOneLevel}");
+            Console.WriteLine($"HP: {characterOneCurrentHp} / {characterOneMaxHp}");
+            Console.WriteLine($"Attack Power: {characterOneAttackPower}");
+            Console.WriteLine($"Crit Multiplier: {characterOneCritMultiplier}");
+            Console.WriteLine($"Is Long Range: {IsLongRange}");
 
             /* Character two */
 
-            string CharactertwoName = "Vermillion";
-            char CharactertwoRank = 'C';
-            int CharactertwoLevel = 4;
-            int CharactertwoMaxHp = 190;
-            int CharactertwoCurrentHp = 175;
-            int CharactertwoDamageTaken = 60;
-            float CharactertwoAttackPower = 20.5f;
-            double CharactertwoCritMultiplier = 1.15;
-            bool Melee = true;
+            string characterTwoName = "Vermillion";
+            char characterTwoRank = 'C';
+            int characterTwoLevel = 4;
+            int characterTwoMaxHp = 190;
+            int characterTwoCurrentHp = 175;
+            int characterTwoDamageTaken = 60;
+            float characterTwoAttackPower = 20.5f;
+            double characterTwoCritMultiplier = 1.15;
+            bool IsMelee = true;
 
             Console.WriteLine("===== Vermillion STATUS: INITIAL =====");
-            Console.WriteLine($"Name: {CharactertwoName}");
-            Console.WriteLine($"Rank: {CharactertwoRank}");
-            Console.WriteLine($"Level: {CharactertwoLevel}");
-            Console.WriteLine($"HP: {CharactertwoCurrentHp} / {CharactertwoMaxHp}");
-            Console.WriteLine($"Attack Power: {CharactertwoAttackPower}");
-            Console.WriteLine($"Crit Multiplier: {CharactertwoCritMultiplier}");
-            Console.WriteLine($"Is Boss: {Melee}");
+            Console.WriteLine($"Name: {characterTwoName}");
+            Console.WriteLine($"Rank: {characterTwoRank}");
+            Console.WriteLine($"Level: {characterTwoLevel}");
+            Console.WriteLine($"HP: {characterTwoCurrentHp} / {characterTwoMaxHp}");
+            Console.WriteLine($"Attack Power: {characterTwoAttackPower}");
+            Console.WriteLine($"Crit Multiplier: {characterTwoCritMultiplier}");
+            Console.WriteLine($"Is Melee: {IsMelee}");
 
             /* Character three */
 
-            string CharacterthreeName = "Nirvana Jheva";
-            char CharacterthreeRank = 'A';
-            int CharacterthreeLevel = 6;
-            int CharacterthreeMaxHp = 130;
-            int CharacterthreeCurrentHp = 130;
-            int CharacterthreeDamageTaken = 0;
-            float CharacterthreeAttackPower = 15.0f;
-            double CharacterthreeCritMultiplier = 1;
-            bool Summoner = true;
+            string characterThreeName = "Nirvana Jheva";
+            char characterThreeRank = 'A';
+            int characterThreeLevel = 6;
+            int characterThreeMaxHp = 130;
+            int characterThreeCurrentHp = 130;
+            int characterThreeDamageTaken = 0;
+            float characterThreeAttackPower = 15.0f;
+            double characterThreeCritMultiplier = 1;
+            bool IsSummmoner = true;
 
             Console.WriteLine("===== Nirvana Jheva STATUS: INITIAL =====");
-            Console.WriteLine($"Name: {CharacterthreeName}");
-            Console.WriteLine($"Rank: {CharacterthreeRank}");
-            Console.WriteLine($"Level: {CharacterthreeLevel}");
-            Console.WriteLine($"HP: {CharacterthreeCurrentHp} / {CharacterthreeMaxHp}");
-            Console.WriteLine($"Attack Power: {CharacterthreeAttackPower}");
-            Console.WriteLine($"Crit Multiplier: {CharacterthreeCritMultiplier  }");
-            Console.WriteLine($"Is Boss: {Summoner}");
+            Console.WriteLine($"Name: {characterThreeName}");
+            Console.WriteLine($"Rank: {characterThreeRank}");
+            Console.WriteLine($"Level: {characterThreeLevel}");
+            Console.WriteLine($"HP: {characterThreeCurrentHp} / {characterThreeMaxHp}");
+            Console.WriteLine($"Attack Power: {characterThreeAttackPower}");
+            Console.WriteLine($"Crit Multiplier: {characterThreeCritMultiplier}");
+            Console.WriteLine($"Is Summoner: {IsSummmoner}");
 
             /* Character four */
 
-            string CharacterfourName = "Bavsargra";
-            char CharacterfourRank = 'A';
-            int CharacterfourLevel = 5;
-            int CharacterfourMaxHp = 235;
-            int CharacterfourCurrentHp = 170;
-            int CharacterfourDamageTaken = 65;
-            float CharacterfourAttackPower = 20.0f;
-            double CharacterfourCritMultiplier = 1.50;
-            bool Tank = true;
+            string characterFourName = "Bavsargra";
+            char characterFourRank = 'A';
+            int characterFourLevel = 5;
+            int characterFourMaxHp = 235;
+            int characterFourCurrentHp = 170;
+            int characterFourDamageTaken = 65;
+            float characterFourAttackPower = 20.0f;
+            double characterFourCritMultiplier = 1.50;
+            bool IsTank = true;
 
             Console.WriteLine("===== Bavsargra STATUS: INITIAL =====");
-            Console.WriteLine($"Name: {CharacterfourName}");
-            Console.WriteLine($"Rank: {CharacterfourRank}");
-            Console.WriteLine($"Level: {CharacterfourLevel}");
-            Console.WriteLine($"HP: {CharacterfourCurrentHp} / {CharacterfourMaxHp}");
-            Console.WriteLine($"Attack Power: {CharacterfourAttackPower}");
-            Console.WriteLine($"Crit Multiplier: {CharacterfourCritMultiplier}");
-            Console.WriteLine($"Is Boss: {Tank}");
+            Console.WriteLine($"Name: {characterFourName}");
+            Console.WriteLine($"Rank: {characterFourRank}");
+            Console.WriteLine($"Level: {characterFourLevel}");
+            Console.WriteLine($"HP: {characterFourCurrentHp} / {characterFourMaxHp}");
+            Console.WriteLine($"Attack Power: {characterFourAttackPower}");
+            Console.WriteLine($"Crit Multiplier: {characterFourCritMultiplier}");
+            Console.WriteLine($"Is Tank: {IsTank}");
         }
     }
 } 
